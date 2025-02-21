@@ -45,4 +45,4 @@ ENV ASPNETCORE_ENVIRONMENT Production
 ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
 
 # Run the ASP.NET Core app
-ENTRYPOINT dotnet dotnet-demoapp.dll
+ENTRYPOINT ["dotnet", "dotnet-demoapp.dll"]
